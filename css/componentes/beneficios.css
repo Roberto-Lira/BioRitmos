@@ -1,0 +1,61 @@
+.beneficios{
+    background-color: var(--cinza);
+    color: var(--preto);
+    padding: 2rem 0;
+}
+
+.beneficios__titulo{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.beneficios__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+    /* height: 240px; */
+}
+
+.beneficios__container-imagem{
+    background-image: url(../../images/mulherComTrena.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 20px var(--preto);
+    height: 200px;
+    width: 40%;
+}
+
+.beneficios__container-lista{
+    width: 40%;
+}
+
+.listaBeneficios-item{
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.listaBeneficios-item:before{
+    content: "\2705";
+    font-style: normal;
+    margin-right: .5rem;
+}
+
+@media screen and (max-width: 628px){
+    .beneficios__container{
+        align-items: center;
+        flex-direction: column;
+        margin: 0 0;
+    }
+
+    .beneficios__container-imagem{
+        box-shadow: none;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    .beneficios__container-lista{
+        width: 220px;
+    }
+}

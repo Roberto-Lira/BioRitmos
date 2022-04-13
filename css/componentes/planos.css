@@ -1,0 +1,58 @@
+.planos{
+    background-color: var(--overlay);
+    padding: 2rem 1rem;
+}
+
+.planos__titulo{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.planos__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.planos__container-valores{
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    width: 280px;
+}
+
+.valoresPlanos{
+    margin-bottom: 1.5rem;
+}
+
+.valoresPlanos b{
+    color: var(--amarelo);
+}
+
+.planos__container-imagem{
+    background-image: url(../../images/praticandoPilates.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 8px 8px 15px var(--branco);
+    height: 240px;
+    margin: 0 auto;
+    min-width: 192px;
+}
+
+@media screen and (max-width: 628px){
+    .planos__container{
+        margin: 0;
+    }
+    .planos__container-imagem{
+        display: none;
+    }
+    .planos__container-valores{
+        padding: 0;
+        width: 260px;
+    }
+    .valoresPlanos:nth-child(3){
+        margin-bottom: 0;
+    }
+}

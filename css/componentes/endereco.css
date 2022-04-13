@@ -1,0 +1,58 @@
+.endereco{
+    background-color: var(--branco);
+    padding: 2rem 1rem;
+}
+
+.endereco__titulo{
+    color: var(--preto);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.endereco__mapa{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.endereco__container{
+    color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.endereco__container-icone a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: var(--preto);
+    text-shadow: 0.1em 0.1em 0.2em var(--cinza)
+}
+
+.endereco__container-icone i{
+    color: var(--googleMapsColor);
+    font-size: 40px;
+    margin-bottom: .5rem;
+    text-shadow: 0.1em 0.1em 0.2em var(--cinza)
+}
+
+@media screen and (max-width: 700px){
+    .endereco__mapa{
+        display: none;
+    }
+    .endereco__container{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .endereco__container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .endereco__container-endereco{
+        margin-bottom: 1.5rem;
+    }
+}
