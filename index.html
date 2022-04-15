@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="css/componentes/cabecalho.css">
     <link rel="stylesheet" href="css/componentes/banner.css">
     <link rel="stylesheet" href="css/componentes/beneficios.css">
+    <link rel="stylesheet" href="css/componentes/modalidades.css">
     <link rel="stylesheet" href="css/componentes/planos.css">
     <link rel="stylesheet" href="css/componentes/endereco.css">
     <link rel="stylesheet" href="css/componentes/sobre.css">
+    <link rel="stylesheet" href="css/componentes/rodape.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <title>BioRitmos Pilates</title>
 </head>
@@ -46,7 +48,7 @@
             <button class="banner__botao"><a href="#"><h3>Matricular-se</h3></a></button>
         </section>
 
-        <section class="beneficios">
+        <section class="beneficios" id="beneficios">
             <div class="beneficios__titulo">
                 <h3>Benefícios de praticar Pilates</h3>
             </div>
@@ -60,6 +62,28 @@
                     <li class="listaBeneficios-item">Reduz o stress</li>
                     <li class="listaBeneficios-item">Aumenta a disposição</li>
                 </ul>
+            </div>
+        </section>
+
+        <section class="modalidades">
+            <div class="modalidades__titulo">
+                <h3>Modalidades de Pilates</h3>
+            </div>
+            <div class="modalidades__galeria">
+                <div class="modalidades__galeria-imagem"></div>
+                <div class="modalidades__galeria-imagem"></div>
+                <div class="modalidades__galeria-imagem"></div>
+                <div class="modalidades__galeria-imagem"></div>
+                <div class="modalidades__galeria-imagem"></div>
+                <div class="modalidades__galeria-imagem"></div>
+            </div>
+            <div class="modalidades__shadowBox"></div>
+            <div class="modalidades__modalidades">
+                <p>Pilates para gestantes</p>
+                <p>Pilates acrobático</p>
+                <p>Pilates na hérnia de disco</p>
+                <p>Pilates para crianças</p>
+                <p>Pilates suspenso</p>
             </div>
         </section>
         
@@ -86,7 +110,7 @@
             </div>
         </section>
 
-        <section class="endereco">
+        <section class="endereco" id="localizacao">
             <div class="endereco__titulo">
                 <h3>Localização</h3>
             </div>
@@ -105,7 +129,7 @@
             </div>
         </section>
 
-        <section class="sobre">
+        <section class="sobre" id="contato">
             <div class="sobre__titulo">
                 <h3>Quem somos</h3>
             </div>
@@ -131,7 +155,23 @@
     </main>
 
     <footer class="rodape">
-
+        <div class="rodape__titulo">
+            <h3>Entre em contato</h3>
+        </div>
+        <div class="rodape__one">
+            <div class="rodape__one-facebook">
+                <a href="https://www.facebook.com/solange.fortesrosler"><i class="fab fa-facebook"></i><h4>facebook</h4></a>
+            </div>
+            <div class="rodape__one-whatsapp">
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5555996041197"><i class="fab fa-whatsapp"></i><h4>whatsapp</h4></a>
+            </div>
+            <div class="rodape__one-telefone">
+                <a href="tel:(55)99604-1197"><i class="fas fa-phone"></i><h4>(55) 99604-1197</h4></a>
+            </div>
+        </div>
+        <div class="rodape__two">
+			<p>site desenvolvido por <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5555999135701">@roberto_lira</a></p>
+        </div>
     </footer>
 
 </body>

@@ -1,0 +1,107 @@
+.modalidades{
+    background: linear-gradient(0deg, var(--overlay) 45%, var(--cinza) 100%);
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.modalidades__titulo{
+    color: var(--preto);
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.modalidades__galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.modalidades__galeria-imagem{
+    background-color: var(--amarelo);
+    height: 200px;
+    width: 33.33%;
+}
+
+.modalidades__galeria-imagem:nth-child(1){
+    background-image: url(../../images/img1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modalidades__galeria-imagem:nth-child(2){
+    background-image: url(../../images/img2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modalidades__galeria-imagem:nth-child(3){
+    background-image: url(../../images/img3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modalidades__galeria-imagem:nth-child(4){
+    background-image: url(../../images/img4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modalidades__galeria-imagem:nth-child(5){
+    background-image: url(../../images/img5.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modalidades__galeria-imagem:nth-child(6){
+    background-image: url(../../images/img6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modalidades__shadowBox{
+    background-color: var(--shadowBox);
+    height: 200px;
+    left: 50%;
+    position: absolute;
+    top: 57%;
+    transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+    width: 280px;
+}
+
+.modalidades__modalidades{
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 0.2em var(--preto), 0 0 0.2em var(--preto), 0 0 0.2em var(--preto);
+    top: 57%;
+    transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.modalidades__modalidades p{
+    line-height: 1.8rem;
+    text-transform: uppercase;
+}
+
+.modalidades__modalidades p:before{
+    color: var(--branco);
+    content: "\2726";
+    margin-right: .5rem;
+}
+
+@media screen and (max-width: 500px){
+    .modalidades__galeria-imagem{
+        height: 150px;
+    }
+}

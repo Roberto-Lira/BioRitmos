@@ -6,7 +6,7 @@
     background-image: url(../../images/bannerPrincipal-desktop.jpg);
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 76px);
     overflow: hidden;
 }
 
@@ -39,8 +39,9 @@
 
 .banner__botao{
     background-color: var(--whatsapp);
-    border: 1px solid var(--preto);
+    border: 1px solid var(--cinza);
     border-radius: 5px;
+    box-shadow: inset 0px 0px 10px var(--preto);
     position: absolute;
     top: 92%;
     left: 50%;

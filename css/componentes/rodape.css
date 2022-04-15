@@ -1,0 +1,90 @@
+.rodape__titulo{
+    margin-bottom: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rodape__one{
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.rodape__one-facebook a{
+    background-color: var(--facebook);
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px var(--preto);
+    color: var(--branco);
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.rodape__one-whatsapp a{
+    background-color: var(--whatsapp);
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px var(--preto);
+    color: var(--branco);
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.rodape__one-telefone a{
+    background-color: var(--azul);
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px var(--preto);
+    color: var(--branco);
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.rodape__one-facebook a{
+    background-color: var(--facebook);
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 10px var(--preto);
+    color: var(--braco);
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.rodape__one i{
+    margin-right: .5rem;
+}
+
+.rodape__two{
+    background-color: var(--branco);
+    border-top: 2px solid var(--cinza);
+    color: var(--preto);
+    margin: 0 auto;
+    max-width: 900px;
+    padding: .5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px){
+    .rodape{
+        text-align: center;
+    }
+    .rodape__titulo{
+        margin-bottom: 1.5rem;
+    }
+    .rodape__one{
+        display: inline-block;
+        padding-top: 1rem;
+    }
+    .rodape__one-facebook{
+        margin-bottom: 1.5rem;
+    }
+    .rodape__one-whatsapp{
+        margin-bottom: 1.5rem;
+    }
+
+}
